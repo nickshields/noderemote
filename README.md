@@ -26,6 +26,7 @@ In order to take advantage of NodeRemote, you'll need the following:
 * An Arduino with a VS1838B IR Receiver and an IR LED, a breadboard and sufficient wiring to complete the circuit.
 * All the circuit parts cost less than $10 total on eBay, so this is a pretty cheap 'smart' remote.
 Here is a picture of how the circuit should look:
+![alt text](https://i.imgur.com/ATalEuD.jpg "Circuit Diagram")
 
 
 ## Setup:
