@@ -1,5 +1,7 @@
 # NodeRemote.me
 NodeRemote is a Node.js Application that works as a universal remote when paired with an Arduino.
+As an FYI, http://NodeRemote.me currently serves as a demo for demonstrating how app looks and works.
+
 
 ## Features:
 The Remote currently works with the IR device protocols that are found in the Arduino IR Library.
