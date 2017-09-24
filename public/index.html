@@ -1,0 +1,43 @@
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src='/javascripts/controller.js'></script>
+	<script src='/javascripts/remote.js'></script>
+	<link rel="stylesheet" href='/stylesheets/style.css'>
+	<link rel="stylesheet" href='/stylesheets/remote.css'>
+
+	<script type="text/javascript">
+		$("[name='my-checkbox']").bootstrapSwitch();
+	
+	</script>
+</head>
+
+<body>
+	<div class="row well">
+		<center><h1>NodeRemote.me</h1></center>
+	</div>
+	<div class="well" >
+		<div class="row">
+			<div class="col-lg-12" style="margin-bottom: 50px">
+				<center>
+				<div id="tvRemote" style="min-width: 425px; max-width: 425px;">
+				</div>
+				</center>
+			</div>
+
+		</div>
+	</div>
+		<div class="row well">
+		<center><h3>Configuration Mode:</h3>                 
+		<!-- Rectangular switch -->
+			<label class="switch">
+			  <input type="checkbox" name="test">
+			  <span class="slider"></span>
+			</label>
+        </center>
+	</div>
+</body>
+
