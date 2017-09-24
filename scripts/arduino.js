@@ -5,7 +5,7 @@ var options = {
 	"baudRate":115200,
 	"encoding":'utf8'
 }
-var serialport = new SerialPort("/dev/cu.usbmodem1421", options);
+var serialport = new SerialPort("/dev/ttyACM1", options);
 var commandData = require("./TV_Commands.json");
 
 var SerialCommunication = function() {
