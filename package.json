@@ -12,7 +12,7 @@
     "express": "^4.15.4",
     "file-system": "^2.2.2",
     "material-design-icons": "^3.0.1",
-    "morgan": "~1.8.1",
+    "morgan": "~1.9.1",
     "pug": "~2.0.0-beta11",
     "serialport": "^5.0.0",
     "serve-favicon": "~2.4.2"
